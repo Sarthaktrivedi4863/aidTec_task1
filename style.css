@@ -1,0 +1,80 @@
+#man {
+
+    width: 250px;
+    height: 340px;
+    border: 5px solid black;
+    margin: auto;
+    border-radius: 18px;
+    background-color: rgb(195, 191, 187);
+    text-align: center;
+    box-shadow: 10px 10px 30px;
+    display: grid;
+}
+
+.row {
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(32, 230, 190);
+    text-decoration: underline;
+    font-weight: bold;
+}
+#z1{
+    font-size: 10px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.row input {
+    width: 210px;
+    border: 2px solid black;
+    font-size: 20px;
+    height: 26px;
+    box-shadow: 4px 4px 5px;
+    border-radius: 10px;
+    background-color: rgb(231, 230, 229);
+}
+
+.bb {
+    height: 30px;
+    width: 30px;
+    margin: 7px;
+    padding: 4px;
+    box-shadow: 4px 4px 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+#a1 {
+    margin-top: 20px;
+}
+
+#equ {
+    background-color: rgb(57, 236, 57);
+}
+
+#a2 {
+    background-color: red;
+}
+
+#a3 {
+    background-color: rgb(89, 89, 209);
+}
+
+.bb:hover {
+    cursor: pointer;
+}
+
+.bb:active {
+    background-color: rgb(178, 176, 176);
+    box-shadow: none;
+
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
